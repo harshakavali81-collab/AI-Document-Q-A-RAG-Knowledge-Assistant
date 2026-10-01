@@ -3,7 +3,7 @@
 Prepared for Kavali Harshavardhan · 30 September 2026
 
 ## Objective and scope
-Build a reproducible document Q&A portfolio application that retrieves inspectable evidence. The implementation covers ingestion, cleaning, chunking, vector representations, retrieval, optional generation, source display, testing, evaluation and deployment configuration. The GitHub destination is document-qa-bot/evidencedesk; live hosting remains an external setup step.
+Build a reproducible document Q&A portfolio application that retrieves inspectable evidence. The implementation covers ingestion, cleaning, chunking, vector representations, retrieval, optional generation, source display, testing, evaluation and deployment configuration. The GitHub destination is AI-Document-Q-A-RAG-Knowledge-Assistant; live hosting remains an external setup step.
 
 ## Dataset and method
 Three authored fictional TXT documents represent employee policies, security rules and a product guide. They produce 22 chunks. The dataset contains 25 answerable and 5 unanswerable questions; it is an authored development fixture, not an independent benchmark.
@@ -46,4 +46,4 @@ Scanned PDFs need external OCR. Some PDF tables and DOCX interleaving lose struc
 Create a separate, manually annotated real-document evaluation set. Compare lexical and semantic retrieval at fixed k, then hybrid retrieval and reranking. Tune thresholds on a development split; report a held-out split separately. Label answer correctness, citation support and abstention using a written rubric. Measure request-level latency and API usage only after live generation is configured.
 
 ## Delivery status
-Source code, tests, sample corpus, evaluation output, setup instructions, CI configuration, Docker recipe, report, and interview notes are included. The existing document-qa-bot repository is the publication destination. Cloud deployment, semantic model download and real API validation were not completed in this environment. No demo video or app screenshot is represented as delivered.
+Source code, tests, sample corpus, evaluation output, setup instructions, CI configuration, Docker recipe, report, and interview notes are included. The standalone AI-Document-Q-A-RAG-Knowledge-Assistant repository is the publication destination. Cloud deployment, semantic model download and real API validation were not completed in this environment. No demo video or app screenshot is represented as delivered.

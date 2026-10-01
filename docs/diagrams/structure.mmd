@@ -1,0 +1,17 @@
+flowchart TD
+    app["app.py"]
+    cli["cli.py"]
+    core["src/core.py"]
+    answer["src/answering.py"]
+    samples["data/sample_documents"]
+    tests["tests/"]
+    eval["evaluation/"]
+    docs["docs/ + CI + Dockerfile"]
+    app --> core
+    cli --> core
+    app --> answer
+    samples --> core
+    tests --> answer
+    eval --> samples
+    docs --> tests
+    docs --> eval

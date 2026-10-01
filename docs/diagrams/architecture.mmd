@@ -1,0 +1,15 @@
+flowchart TD
+    files["PDF / DOCX / TXT"]
+    load["Extract and clean"]
+    chunks["Create text chunks"]
+    lex["TF-IDF vectors"]
+    sem["MiniLM vectors"]
+    index["Vector index"]
+    question["Question + cosine search"]
+    files --> load
+    load --> chunks
+    chunks --> lex
+    chunks --> sem
+    lex --> index
+    sem --> index
+    index --> question

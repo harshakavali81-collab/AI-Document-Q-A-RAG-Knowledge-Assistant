@@ -1,0 +1,31 @@
+question,source,evidence,evidence_hit_at_3,abstained,milliseconds
+How many annual leave days are available?,people_policy.txt,18 annual leave,True,False,1.045
+How much unused annual leave can I carry forward?,people_policy.txt,up to 5 days,True,False,0.776
+Who approves annual leave requests?,people_policy.txt,Managers approve,True,False,0.389
+How many sick leave days do employees get?,people_policy.txt,10 sick leave,True,False,0.406
+When is a medical certificate required?,people_policy.txt,3 consecutive,True,False,0.524
+How many remote work days are allowed?,people_policy.txt,2 days per week,True,False,0.479
+When should remote work requests be submitted?,people_policy.txt,Friday,True,False,0.34
+How long is probation?,people_policy.txt,6 months,True,False,0.954
+What is the annual learning budget?,people_policy.txt,"15,000",True,False,0.333
+When must travel expense claims be submitted?,people_policy.txt,30 days,True,False,1.132
+What are standard working hours?,people_policy.txt,9:30 AM,True,False,0.54
+When should security incidents be reported?,security_policy.txt,1 hour,True,False,0.88
+What is the minimum password length?,security_policy.txt,14 characters,False,True,0.307
+Is multi-factor authentication required?,security_policy.txt,all company accounts,True,False,0.314
+How are customer records classified?,security_policy.txt,confidential,True,False,1.492
+What happens after a company laptop is lost?,security_policy.txt,remote device locking,True,False,0.424
+How often are production databases backed up?,security_policy.txt,daily,True,False,1.111
+How long are backups retained?,security_policy.txt,30 days,True,False,0.428
+How often are access reviews conducted?,security_policy.txt,every quarter,True,False,0.928
+How many workspaces does the Free plan support?,product_guide.txt,3 workspaces,True,False,0.911
+How much does the Pro plan cost?,product_guide.txt,499,True,False,0.374
+What is included in the Business plan?,product_guide.txt,single sign-on,True,False,1.687
+Which note export formats are available?,product_guide.txt,Markdown or PDF,True,False,0.363
+How long can deleted notes be restored?,product_guide.txt,30 days,True,False,0.48
+How do I cancel my subscription?,product_guide.txt,Billing settings,False,True,0.328
+What is the orbital velocity of Neptune?,,,,True,0.249
+Who won the football World Cup in 2018?,,,,True,1.138
+What is the CEO salary?,,,,True,0.462
+Does the company pay overtime?,,,,False,0.472
+Are interns eligible for paid parental leave?,,,,False,1.44

@@ -129,6 +129,19 @@ Dependency versions use bounded ranges, not a reproducible lock. A snapshot of t
 
 [Read the 12-page workflow and implementation guide](docs/AI_Document_QA_RAG_Full_Project_Guide.pdf).
 
-## Standalone repository
 
-Run all commands from this repository root (the folder containing `app.py`). The PDF was originally prepared for the `document-qa-bot/evidencedesk` location; references to that folder in the PDF now mean this repository root. The implementation and evaluation described in the PDF remain the same.
+## Complete project package
+
+- [Full project guide (PDF)](docs/AI_Document_QA_RAG_Full_Project_Guide.pdf)
+- [Workflow and structure diagrams (PDF)](docs/Workflow_and_Structure_Diagrams.pdf)
+- [Detailed workflow and code explanation](docs/WORKFLOW_AND_CODE_EXPLAINED.md)
+- [Data dictionary](docs/DATA_DICTIONARY.md)
+- [Excel evaluation workbook](evaluation/RAG_Evaluation_Workbook.xlsx)
+- [Evaluation results (CSV)](evaluation/evaluation_results.csv)
+- [Interview and demonstration guide](docs/DEMO_AND_INTERVIEW.md)
+
+![Project architecture](docs/diagrams/architecture.png)
+
+Run all commands from this repository root. The PDFs have been updated for this standalone repository. The workbook summarizes the original 30-question lexical evaluation; it does not measure LLM answer accuracy or rerun the pipeline.
+
+Download all files together using GitHub **Code > Download ZIP**. Model weights, installed dependencies and API keys are not included.

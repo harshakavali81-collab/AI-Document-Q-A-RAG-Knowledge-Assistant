@@ -1,9 +1,10 @@
-EVIDENCEDESK — DOCUMENT Q&A PROJECT
+EVIDENCEDESK - FULL PROJECT PACKAGE
 
-1. Extract the ZIP and open rag-knowledge-assistant in VS Code.
-2. Open README.md and follow the Windows quick start.
-3. Build the sample knowledge base, then ask about annual leave.
-4. Read docs/PROJECT_REPORT.md for actual results and limitations.
-5. Follow docs/GITHUB_AND_DEPLOYMENT.md to publish your repository.
+1. Extract the ZIP. Open the folder containing app.py in VS Code.
+2. Follow README.md to install and run the app.
+3. Read docs/AI_Document_QA_RAG_Full_Project_Guide.pdf.
+4. Review docs/Workflow_and_Structure_Diagrams.pdf and the diagram image files.
+5. Open evaluation/RAG_Evaluation_Workbook.xlsx for recorded results.
+6. Use docs/DEMO_AND_INTERVIEW.md to prepare your demonstration.
 
-No API key is needed for the default excerpt demo. Semantic mode needs an optional model download; AI generation needs your Groq API key and model ID. These optional online paths were not tested live. See docs/GITHUB_AND_DEPLOYMENT.md for the GitHub destination. Public deployment is not included.
+Default excerpt mode needs no API key. Semantic mode requires optional model installation; AI generation needs your provider key and active model ID. Public hosting is not included.

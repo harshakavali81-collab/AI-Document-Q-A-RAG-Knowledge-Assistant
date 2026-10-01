@@ -1,0 +1,18 @@
+flowchart TD
+    q["Standalone question"]
+    retrieve["Retrieve passages"]
+    none["No passages"]
+    hits["Passages found"]
+    excerpts["Excerpt mode"]
+    llm["AI mode"]
+    validate["Validate citations"]
+    show["Display evidence"]
+    q --> retrieve
+    retrieve --> none
+    retrieve --> hits
+    hits --> excerpts
+    hits --> llm
+    llm --> validate
+    none --> show
+    excerpts --> show
+    validate --> show
